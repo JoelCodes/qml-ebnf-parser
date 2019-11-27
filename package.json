@@ -4,11 +4,14 @@
   "description": "EBNF-based parser for QML, Qt's Markup Language",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "rollup -c",
-    "watch": "rollup -cw"
+    "watch": "rollup -cw",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -22,8 +25,11 @@
   },
   "homepage": "https://github.com/JoelCodes/qml-ebnf-parser#readme",
   "devDependencies": {
+    "@types/jest": "24.0.23",
+    "jest": "24.9.0",
     "rollup": "1.27.5",
     "rollup-plugin-typescript2": "0.25.2",
+    "ts-jest": "24.2.0",
     "typescript": "3.7.2"
   }
 }
