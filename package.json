@@ -1,0 +1,29 @@
+{
+  "name": "qml-ebnf-parser",
+  "version": "1.0.0",
+  "description": "EBNF-based parser for QML, Qt's Markup Language",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "files": ["dist"],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -cw"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoelCodes/qml-ebnf-parser.git"
+  },
+  "keywords": [],
+  "author": "Joel Shinness <me@joelshinness.com> (http://joelshinness.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoelCodes/qml-ebnf-parser/issues"
+  },
+  "homepage": "https://github.com/JoelCodes/qml-ebnf-parser#readme",
+  "devDependencies": {
+    "rollup": "1.27.5",
+    "rollup-plugin-typescript2": "0.25.2",
+    "typescript": "3.7.2"
+  }
+}
